@@ -6,10 +6,9 @@ Description: Data sets from the World Input Output Database, for the years 1995-
 Maintainer: Bastiaan Quast <bquast@gmail.com>
 Depends: R (>= 3.2.0)
 LazyData: false
-URL: http://qua.st/decompr, https://github.com/bquast/decompr
-BugReports: https://github.com/bquast/decompr/issues
+URL: http://www.wiod.org/ http://qua.st/wiod, https://github.com/bquast/wiod
+BugReports: https://github.com/bquast/wiod/issues
 Suggests: gvc,
-          testthat,
           knitr
 VignetteBuilder: knitr
 
