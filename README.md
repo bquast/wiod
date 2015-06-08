@@ -1,2 +1,2 @@
 # WIOD
-Data sets from the World Input Output database, for the years 1995-2011.
+Data sets from the World Input Output Database, for the years 1995-2011.
