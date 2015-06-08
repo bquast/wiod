@@ -1,4 +1,4 @@
-Package: WIOD
+Package: wiod
 Title: World Input Output Database 1995-2011
 Version: 0.0.0.9000
 Authors@R: person("Bastiaan", "Quast", email = "bqast@gmail.com", role = c("aut", "cre"))
