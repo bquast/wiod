@@ -26,7 +26,7 @@ Following installation, the package can be loaded using:
 library(wiod)
 ```
 
-Data can be loaded using the the `data()` function, using `wiod` followed by the last to digits of the required year, as the argument, e.g.
+Data can be loaded using the the `data()` function, using `wiod` followed by the last two digits of the required year, as the argument, e.g.
 
 ```r
 data(wiod95)
@@ -39,7 +39,7 @@ help("wiod")
 help(package = "wiod")
 ```
     
-For examples of usage, see the function specific help pages.
+For examples of usage, see the function-specific help pages.
 
 
 ```r
@@ -48,7 +48,7 @@ help("industries")
 help("inter95")
 ```
 
-In addition to the help files we provide long form examples in the [vignette](http://cran.r-project.org/web/packages/wiod/vignettes/wiod.html).
+In addition to the help files we provide long-form examples in the [vignette](http://cran.r-project.org/web/packages/wiod/vignettes/wiod.html).
 
 ```r
 vignette("wiod")
