@@ -1,0 +1,39 @@
+---
+title: "wiod"
+author: "Bastiaan Quast"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{wiod}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Load the library.
+
+```{r}
+library(wiod)
+```
+
+Load the data.
+
+```{r}
+data("wiod95")
+```
+
+Load the `decompr` package.
+
+```{r}
+library(decompr)
+```
+
+Apply the `leontief` decomposition and save the output to an object `l1995`.
+
+```{r}
+l1995 <- decomp(inter95,
+                final95,
+                countries,
+                industries,
+                output95,
+                method = "leontief" )
+```
