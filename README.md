@@ -4,7 +4,7 @@
 
 Data sets from the World Input Output Database, for the years 1995-2011.
 
-This data package is to be used in conjunction with the [decompr](http://qua.st/decompr) ([CRAN](http://r-project.org/package=decompr)) and [gvc](http://qua.st/gvc) ([CRAN](http://r-project.org/package=gvc)) packages.
+This data package is to be used in conjunction with the [decompr](http://qua.st/decompr) ([CRAN](http://cran.r-project.org/package=decompr)) and [gvc](http://qua.st/gvc) ([CRAN](http://cran.r-project.org/package=gvc)) packages.
 
 
 Installation
