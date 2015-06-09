@@ -4,16 +4,6 @@
 #' @seealso http://wwww.wiod.org/ http://qua.st/wiod
 #' @references {Timmer, Marcel P. (ed) (2012), "The World Input-Output Database (WIOD): Contents Sources and Methods", WIOD Working Paper Number 10, downloadable at http://www.wiod.org/publications/papers/wiod10.pdf }
 NULL
-#' @name final95
-#' @docType data
-#' @title WIOD 1995 final
-#' @description WIOD 1995 final demand data
-NULL
-#' @name inter95
-#' @docType data
-#' @title WIOD 1995 inter
-#' @description WIOD 1995 intermediate demand data
-NULL
 #' @name countries
 #' @docType data
 #' @title WIOD countries
@@ -23,6 +13,16 @@ NULL
 #' @docType data
 #' @title WIOD industries
 #' @description the names of the industries
+NULL
+#' @name final95
+#' @docType data
+#' @title WIOD 1995 final
+#' @description WIOD 1995 final demand data
+NULL
+#' @name inter95
+#' @docType data
+#' @title WIOD 1995 inter
+#' @description WIOD 1995 intermediate demand data
 NULL
 #' @name output95
 #' @docType data
