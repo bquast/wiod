@@ -29,3 +29,18 @@ NULL
 #' @title WIOD 1995 output
 #' @description WIOD 1995 final output
 NULL
+#' @name final96
+#' @docType data
+#' @title WIOD 1996 final
+#' @description WIOD 1996 final demand data
+NULL
+#' @name inter96
+#' @docType data
+#' @title WIOD 1996 inter
+#' @description WIOD 1996 intermediate demand data
+NULL
+#' @name output96
+#' @docType data
+#' @title WIOD 1996 output
+#' @description WIOD 1996 final output
+NULL
