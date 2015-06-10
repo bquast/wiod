@@ -119,3 +119,18 @@ NULL
 #' @title WIOD 2001 output
 #' @description WIOD 2001 final output
 NULL
+#' @name final02
+#' @docType data
+#' @title WIOD 2002 final
+#' @description WIOD 2002 final demand data
+NULL
+#' @name inter02
+#' @docType data
+#' @title WIOD 2002 inter
+#' @description WIOD 2002 intermediate demand data
+NULL
+#' @name output02
+#' @docType data
+#' @title WIOD 2002 output
+#' @description WIOD 2002 final output
+NULL
