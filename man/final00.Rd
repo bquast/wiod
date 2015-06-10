@@ -3,8 +3,8 @@
 \docType{data}
 \name{final00}
 \alias{final00}
-\title{WIOD 1900 final}
+\title{WIOD 2000 final}
 \description{
-WIOD 1900 final demand data
+WIOD 2000 final demand data
 }
 

@@ -3,8 +3,8 @@
 \docType{data}
 \name{output00}
 \alias{output00}
-\title{WIOD 1900 output}
+\title{WIOD 2000 output}
 \description{
-WIOD 1900 final output
+WIOD 2000 final output
 }
 
