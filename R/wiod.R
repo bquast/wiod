@@ -59,3 +59,48 @@ NULL
 #' @title WIOD 1997 output
 #' @description WIOD 1997 final output
 NULL
+#' @name final98
+#' @docType data
+#' @title WIOD 1998 final
+#' @description WIOD 1998 final demand data
+NULL
+#' @name inter98
+#' @docType data
+#' @title WIOD 1998 inter
+#' @description WIOD 1998 intermediate demand data
+NULL
+#' @name output98
+#' @docType data
+#' @title WIOD 1998 output
+#' @description WIOD 1998 final output
+NULL
+#' @name final99
+#' @docType data
+#' @title WIOD 1999 final
+#' @description WIOD 1999 final demand data
+NULL
+#' @name inter99
+#' @docType data
+#' @title WIOD 1999 inter
+#' @description WIOD 1999 intermediate demand data
+NULL
+#' @name output99
+#' @docType data
+#' @title WIOD 1999 output
+#' @description WIOD 1999 final output
+NULL
+#' @name final00
+#' @docType data
+#' @title WIOD 1900 final
+#' @description WIOD 1900 final demand data
+NULL
+#' @name inter00
+#' @docType data
+#' @title WIOD 1900 inter
+#' @description WIOD 1900 intermediate demand data
+NULL
+#' @name output00
+#' @docType data
+#' @title WIOD 1900 output
+#' @description WIOD 1900 final output
+NULL
