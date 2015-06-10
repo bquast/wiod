@@ -149,3 +149,18 @@ NULL
 #' @title WIOD 2003 output
 #' @description WIOD 2003 final output
 NULL
+#' @name final04
+#' @docType data
+#' @title WIOD 2004 final
+#' @description WIOD 2004 final demand data
+NULL
+#' @name inter04
+#' @docType data
+#' @title WIOD 2004 inter
+#' @description WIOD 2004 intermediate demand data
+NULL
+#' @name output04
+#' @docType data
+#' @title WIOD 2004 output
+#' @description WIOD 2004 final output
+NULL
