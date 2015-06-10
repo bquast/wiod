@@ -209,3 +209,18 @@ NULL
 #' @title WIOD 2007 output
 #' @description WIOD 2007 final output
 NULL
+#' @name final08
+#' @docType data
+#' @title WIOD 2008 final
+#' @description WIOD 2008 final demand data
+NULL
+#' @name inter08
+#' @docType data
+#' @title WIOD 2008 inter
+#' @description WIOD 2008 intermediate demand data
+NULL
+#' @name output08
+#' @docType data
+#' @title WIOD 2008 output
+#' @description WIOD 2008 final output
+NULL
