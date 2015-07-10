@@ -20,8 +20,9 @@ w95 <- decomp(inter95,
               output95,
               method="leontief")
 
- library(gvc)
- i2e95 <- i2e(w95)
+library(gvc)
+
+i2e95 <- i2e(w95)
 }
 \references{
 {Timmer, Marcel P. (ed) (2012), "The World Input-Output Database (WIOD): Contents Sources and Methods", WIOD Working Paper Number 10, downloadable at http://www.wiod.org/publications/papers/wiod10.pdf }

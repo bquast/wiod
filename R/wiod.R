@@ -15,8 +15,9 @@
 #'               output95,
 #'               method="leontief")
 #'
-#'  library(gvc)
-#'  i2e95 <- i2e(w95)
+#' library(gvc)
+#'
+#' i2e95 <- i2e(w95)
 #'
 NULL
 #' @name countries
