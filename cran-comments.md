@@ -29,8 +29,7 @@ This is a data-only package, as suggested in the policy stated above. It is to b
 
 ## Imports
 
-The decompr and gvc packages are use the Rmarkdown (HTML) vignette.
-
+The decompr and gvc packages are use the Rmarkdown (HTML) vignette as well as the examples in the help file.
 
 
 ## WIOD

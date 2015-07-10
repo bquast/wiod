@@ -3,6 +3,21 @@
 #' @title World Input Output Database 1995-2011
 #' @seealso http://wwww.wiod.org/ http://qua.st/wiod
 #' @references {Timmer, Marcel P. (ed) (2012), "The World Input-Output Database (WIOD): Contents Sources and Methods", WIOD Working Paper Number 10, downloadable at http://www.wiod.org/publications/papers/wiod10.pdf }
+#' @examples
+#' data(wiod95)
+#'
+#' library(decompr)
+#'
+#' w95 <- decomp(inter95,
+#'               final95,
+#'               countries,
+#'               industries,
+#'               output95,
+#'               method="leontief")
+#'
+#'  library(gvc)
+#'  i2e95 <- i2e(w95)
+#'
 NULL
 #' @name countries
 #' @docType data
