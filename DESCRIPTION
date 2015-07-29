@@ -1,6 +1,6 @@
 Package: wiod
 Title: World Input Output Database 1995-2011
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: person("Bastiaan", "Quast", email = "bquast@gmail.com", role = c("aut", "cre"))
 Description: Data sets from the World Input Output Database, for the years 1995-2011.
 Maintainer: Bastiaan Quast <bquast@gmail.com>
@@ -12,4 +12,3 @@ Imports: decompr,
          gvc
 Suggests: knitr
 VignetteBuilder: knitr
-
