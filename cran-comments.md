@@ -10,10 +10,7 @@ There were no ERRORs or WARNINGs.
   installed size is  7.2Mb
   sub-directories of 1Mb or more:
     data   7.1Mb
-    
-* checking dependencies in R code ... NOTE
-Namespaces in Imports field not imported from:
-  'decompr' 'gvc'
+
 
 ## File size
 
@@ -25,11 +22,6 @@ CRAN Policies state:
     Where a large amount of data is required (even after compression), consideration should be given to a separate data-only package which can be updated only rarely (since older versions of packages are archived in perpetuity).
 
 This is a data-only package, as suggested in the policy stated above. It is to be used in the decompr and gvc packages.
-
-
-## Imports
-
-The decompr and gvc packages are used in the Rmarkdown (HTML) vignette as well as the examples in the help file.
 
 
 ## WIOD
