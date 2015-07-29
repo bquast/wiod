@@ -29,14 +29,14 @@ This is a data-only package, as suggested in the policy stated above. It is to b
 
 ## Imports
 
-The decompr and gvc packages are use the Rmarkdown (HTML) vignette as well as the examples in the help file.
+The decompr and gvc packages are used in the Rmarkdown (HTML) vignette as well as the examples in the help file.
 
 
 ## WIOD
 
 This package includes all of the major World Input-Output Database tables for all the available years (1995-2011).
 
-At the moment this is the only publicly available data base of this sort
+At the moment this is the only publicly available data base of this sort.
 
 ## License
 
