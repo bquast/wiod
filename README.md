@@ -1,6 +1,7 @@
 wiod
 =========
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/wiod)](http://cran.r-project.org/package=wiod)
+[![CRAN Version](http://www.r-pkg.org/badges/version/wiod)](http://cran.r-project.org/package=wiod)
+[![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/wiod?color=brightgreen)](http://cran.rstudio.com/package=wiod)
 [![Travis-CI Build Status](https://travis-ci.org/bquast/wiod.svg?branch=master)](https://travis-ci.org/bquast/wiod)
 
 Data sets from the World Input Output Database, for the years 1995-2011.
@@ -10,6 +11,12 @@ This data package is to be used in conjunction with the [decompr](http://qua.st/
 
 Installation
 --------------
+The wiod package is available on [CRAN](http://cran.r-project.org/package=wiod).
+
+```r
+install.packages("wiod")
+```
+
 The development version, to be used **at your own peril**, is available from [GitHub](https://github.com/bquast/gvc).
 Installation from GitHub is done using:
 
