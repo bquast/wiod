@@ -53,6 +53,21 @@ NULL
 #' @title WIOD 1995 output
 #' @description WIOD 1995 final output
 NULL
+#' @name final_reg95
+#' @docType data
+#' @title WIOD 1995 final
+#' @description WIOD 1995 final demand data at the regional level
+NULL
+#' @name inter_reg95
+#' @docType data
+#' @title WIOD 1995 inter
+#' @description WIOD 1995 intermediate demand data at the regional level
+NULL
+#' @name output_reg95
+#' @docType data
+#' @title WIOD 1995 output
+#' @description WIOD 1995 final output at the regional level
+NULL
 #' @name final96
 #' @docType data
 #' @title WIOD 1996 final
