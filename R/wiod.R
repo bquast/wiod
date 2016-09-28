@@ -28,6 +28,11 @@ NULL
 #' @title WIOD countries
 #' @description the names of the countries
 NULL
+#' @name regions
+#' @docType data
+#' @title WIOD regions
+#' @description the names of the regions for the regional level data
+NULL
 #' @name industries
 #' @docType data
 #' @title WIOD industries
@@ -287,4 +292,19 @@ NULL
 #' @docType data
 #' @title WIOD 2011 output
 #' @description WIOD 2011 final output
+NULL
+#' @name final_reg11
+#' @docType data
+#' @title WIOD 2011 final
+#' @description WIOD 2011 final demand data at the regional level
+NULL
+#' @name inter_reg11
+#' @docType data
+#' @title WIOD 2011 inter
+#' @description WIOD 2011 intermediate demand data at the regional level
+NULL
+#' @name output_reg11
+#' @docType data
+#' @title WIOD 2011 output
+#' @description WIOD 2011 final output at the regional level
 NULL
