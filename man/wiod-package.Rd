@@ -10,14 +10,14 @@ Access to the data sets from the World Input Output
     Release (2000 - 2014).
 }
 \examples{
-data(wiod95)
+data(wiot_1995)
 
 library(decompr)
-w95 <- decomp(inter95,
-              final95,
-              countries,
-              industries,
-              output95,
+w95 <- decomp(wiot_1995$inter,
+              wiot_1995$final,
+              wiot_1995$countries,
+              wiot_1995$industries,
+              wiot_1995$output,
               method="leontief")
 
 library(gvc)

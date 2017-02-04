@@ -14,14 +14,14 @@
 #'     \href{http://dx.doi.org/10.1111/roie.12178}{here}.}
 #' @seealso \url{http://wwww.wiod.org/} \url{http://qua.st/decompr/docs/wiod/}
 #' @examples
-#' data(wiod95)
+#' data(wiot_1995)
 #'
 #' library(decompr)
-#' w95 <- decomp(inter95,
-#'               final95,
-#'               countries,
-#'               industries,
-#'               output95,
+#' w95 <- decomp(wiot_1995$inter,
+#'               wiot_1995$final,
+#'               wiot_1995$countries,
+#'               wiot_1995$industries,
+#'               wiot_1995$output,
 #'               method="leontief")
 #'
 #' library(gvc)

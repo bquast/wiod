@@ -2,5 +2,3 @@
 
 export(getWIOT)
 import(data.table)
-## import(decompr)
-## import(gvc)
