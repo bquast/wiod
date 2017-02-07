@@ -18,7 +18,7 @@ library(wiod)
 Load the data.
 
 ```{r}
-data("wiod95")
+data("wiot_1995")
 ```
 
 Load the `decompr` package.
@@ -30,10 +30,10 @@ library(decompr)
 Apply the `leontief` decomposition and save the output to an object `l1995`.
 
 ```{r}
-l1995 <- decomp(inter95,
-                final95,
-                countries,
-                industries,
-                output95,
+l1995 <- decomp(wiot_1995$inter,
+                wiot_1995$final,
+                wiot_1995$countries,
+                wiot_1995$industries,
+                wiot_1995$output,
                 method = "leontief" )
 ```

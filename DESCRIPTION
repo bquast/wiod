@@ -1,19 +1,19 @@
 Package: wiod
-Title: World Input Output Database 1995-2011
-Version: 0.3.0.9900
-Authors@R: person("Bastiaan", "Quast", email = "bquast@gmail.com", role = c("aut", "cre"))
-Description: Data sets from the World Input Output Database, for the years
-    1995-2011.
+Title: World Input Output Database Release 2013 and Release 2016
+Version: 0.4
+Authors@R: c(person("Bastiaan", "Quast", email = "bquast@gmail.com", role = c("aut", "cre")), person("Oliver", "Reiter", email = "reiter@wiiw.ac.at", role = c("aut", "ctb")))
+Description: Access to the data sets from the World Input Output Database, for the 2013 Release (1995 - 2011) and for the 2016 Release (2000 - 2014).
 Maintainer: Bastiaan Quast <bquast@gmail.com>
 Depends:
-    R (>= 3.2.0)
+    R (>= 3.2.0),
+    data.table (>= 1.9.0)
 License: GPL-3
 URL: http://www.wiod.org/ http://qua.st/decompr/docs/wiod/, https://github.com/bquast/wiod
 BugReports: https://github.com/bquast/wiod/issues
-Imports:
-    decompr,
-    gvc
 Suggests:
-    knitr
+    knitr,
+    decompr,
+    gvc,
+    testthat
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
