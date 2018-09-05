@@ -100,7 +100,7 @@ getWIOT <- function(period = 2010,
     }
 
     ## WIOT2000_October16_ROW_list.rds
-    base.url <- "http://wiiw.ac.at/files/staff-content/reiter/"
+    base.url <- "https://wiiw.ac.at/files/staff-content/reiter/"
 
     res <- readRDS(file = gzcon(url(paste0(base.url, "WIOT", period, "_",
                                            version, "_ROW",
