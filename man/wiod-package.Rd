@@ -13,11 +13,11 @@ Access to the data sets from the World Input Output
 data(wiot_1995)
 
 library(decompr)
-w95 <- decomp(wiot_1995$inter,
-              wiot_1995$final,
-              wiot_1995$countries,
-              wiot_1995$industries,
-              wiot_1995$output,
+w95 <- decomp(x = wiot_1995$inter,
+              y = wiot_1995$final,
+              k = wiot_1995$countries,
+              i = wiot_1995$industries,
+              o = wiot_1995$output,
               method="leontief")
 
 library(gvc)
@@ -38,4 +38,3 @@ For the 2016 Release: {Timmer, M. P., Dietzenbacher, E., Los, B.,
 \seealso{
 \url{http://wwww.wiod.org/} \url{http://qua.st/decompr/docs/wiod/}
 }
-

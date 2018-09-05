@@ -71,17 +71,14 @@ wiot.2005 <- getWIOT(period = 2005, format = "wide")
 ## wiot.2005 <- getWIOT(period = 2005, format = "list")
 ## industries <- 1:56
 ## countries <- unique(substring(names(wiot.2005$x), 1, 3))
-## decomp <- decomp(x = wiot.2005$Z,
-##                  y = wiot.2005$F,
-##                  k = countries,
-##                  i = industries,
-##                  o = wiot.2005$x,
-##                  V = wiot.2005$v,
-##                  method = "wwz",
-##                  verbose = TRUE)
-}
-\author{
-Oliver Reiter
+## res <- decomp(x = wiot.2005$Z,
+##               y = wiot.2005$F,
+##               k = countries,
+##               i = wiot.2005$industry.names,
+##               o = wiot.2005$x,
+##               V = wiot.2005$v,
+##               method = "wwz",
+##               verbose = TRUE)
 }
 \references{
 Timmer, M. P., Dietzenbacher, E., Los, B., Stehrer, R. and de
@@ -92,7 +89,9 @@ Vries, G. J. (2015),
 \seealso{
 \url{http://www.wiod.org/database/wiots16}
 }
+\author{
+Oliver Reiter
+}
 \keyword{data,}
 \keyword{input-output,}
 \keyword{wiod}
-
