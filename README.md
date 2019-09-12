@@ -1,6 +1,7 @@
 wiod
 =========
 [![CRAN Version](http://www.r-pkg.org/badges/version/wiod)](http://cran.r-project.org/package=wiod)
+[![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/decompr?color=brightgreen)](https://cran.r-project.org/package=wiod)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/wiod?color=brightgreen)](http://cran.rstudio.com/package=wiod)
 [![Travis-CI Build Status](https://travis-ci.org/bquast/wiod.svg?branch=master)](https://travis-ci.org/bquast/wiod)
 
