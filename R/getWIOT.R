@@ -63,14 +63,14 @@
 #' ## wiot.2005 <- getWIOT(period = 2005, format = "list")
 #' ## industries <- 1:56
 #' ## countries <- unique(substring(names(wiot.2005$x), 1, 3))
-#' ## decomp <- decomp(x = wiot.2005$Z,
-#' ##                  y = wiot.2005$F,
-#' ##                  k = countries,
-#' ##                  i = industries,
-#' ##                  o = wiot.2005$x,
-#' ##                  V = wiot.2005$v,
-#' ##                  method = "wwz",
-#' ##                  verbose = TRUE)
+#' ## res <- decomp(x = wiot.2005$Z,
+#' ##               y = wiot.2005$F,
+#' ##               k = countries,
+#' ##               i = wiot.2005$industry.names,
+#' ##               o = wiot.2005$x,
+#' ##               V = wiot.2005$v,
+#' ##               method = "wwz",
+#' ##               verbose = TRUE)
 getWIOT <- function(period = 2010,
                       format = "wide",  # or "long" or "list"
                       as.DT = TRUE,     # as data.table?
@@ -100,7 +100,7 @@ getWIOT <- function(period = 2010,
     }
 
     ## WIOT2000_October16_ROW_list.rds
-    base.url <- "http://wiiw.ac.at/files/staff-content/reiter/"
+    base.url <- "https://wiiw.ac.at/files/staff-content/reiter/"
 
     res <- readRDS(file = gzcon(url(paste0(base.url, "WIOT", period, "_",
                                            version, "_ROW",
