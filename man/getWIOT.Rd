@@ -4,8 +4,7 @@
 \alias{getWIOT}
 \title{Download a WIOT from the 2016 Release of the WIOD project}
 \usage{
-getWIOT(period = 2010, format = "wide", as.DT = TRUE,
-  version = "October16")
+getWIOT(period = 2010, format = "wide", as.DT = TRUE, version = "October16")
 }
 \arguments{
 \item{period}{the year of the WIOT}
@@ -80,9 +79,6 @@ wiot.2005 <- getWIOT(period = 2005, format = "wide")
 ##                  method = "wwz",
 ##                  verbose = TRUE)
 }
-\author{
-Oliver Reiter
-}
 \references{
 Timmer, M. P., Dietzenbacher, E., Los, B., Stehrer, R. and de
 Vries, G. J. (2015),
@@ -92,7 +88,9 @@ Vries, G. J. (2015),
 \seealso{
 \url{http://www.wiod.org/database/wiots16}
 }
+\author{
+Oliver Reiter
+}
 \keyword{data,}
 \keyword{input-output,}
 \keyword{wiod}
-

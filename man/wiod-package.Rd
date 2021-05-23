@@ -38,4 +38,3 @@ For the 2016 Release: {Timmer, M. P., Dietzenbacher, E., Los, B.,
 \seealso{
 \url{http://wwww.wiod.org/} \url{http://qua.st/decompr/docs/wiod/}
 }
-

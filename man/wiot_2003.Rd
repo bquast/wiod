@@ -24,4 +24,3 @@ names (ISO3),
 \item vector \strong{industries}, a character vector of industry names
 }
 }
-

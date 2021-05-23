@@ -4,7 +4,9 @@
 \name{WIOD_Corr}
 \alias{WIOD_Corr}
 \title{Correspondences to A*64 NACE Rev2 / ISIC Rev4 and Eurostat}
-\format{A list of two: a 64 x 2 and a 13 x 2 data.table.}
+\format{
+A list of two: a 64 x 2 and a 13 x 2 data.table.
+}
 \usage{
 data(WIOD_Corr)
 }
@@ -25,4 +27,3 @@ data(WIOD_Corr)
 \keyword{correspondence}
 \keyword{data,}
 \keyword{industry}
-

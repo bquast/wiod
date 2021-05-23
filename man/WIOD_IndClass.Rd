@@ -4,7 +4,9 @@
 \name{WIOD_IndClass}
 \alias{WIOD_IndClass}
 \title{Industry classification}
-\format{A 69 x 3 data.table}
+\format{
+A 69 x 3 data.table
+}
 \usage{
 data(WIOD_IndClass)
 }
@@ -18,4 +20,3 @@ data(WIOD_IndClass)
 \keyword{classification}
 \keyword{data,}
 \keyword{industry}
-
