@@ -6,7 +6,8 @@ Description: Access to the data sets from the World Input Output Database, for t
 Maintainer: Bastiaan Quast <bquast@gmail.com>
 Depends:
     R (>= 3.2.0),
-    data.table (>= 1.9.0)
+    data.table (>= 1.9.0),
+    rmarkdown
 License: GPL-3
 URL: http://www.wiod.org/ http://qua.st/decompr/docs/wiod/, https://github.com/bquast/wiod
 BugReports: https://github.com/bquast/wiod/issues
@@ -14,7 +15,6 @@ Suggests:
     knitr,
     decompr,
     gvc,
-    testthat,
-    rmarkdown
+    testthat
 VignetteBuilder: knitr
 RoxygenNote: 7.1.1
