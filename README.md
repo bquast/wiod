@@ -12,18 +12,13 @@ This data package can be used in conjunction with the [decompr](http://qua.st/de
 
 Installation
 --------------
-The wiod package is available on [CRAN](http://cran.r-project.org/package=wiod).
+The wiod package is no longer available on CRAN.
 
-```r
-install.packages("wiod")
-```
-
-The development version, to be used **at your own peril**, is available from [GitHub](https://github.com/bquast/gvc).
 Installation from GitHub is done using:
 
 ```r
-if (!require('devtools')) install.packages('devtools')
-devtools::install_github("bquast/wiod")
+if (!require('remote')) install.packages('remote')
+remote::install_github("bquast/wiod")
 ```
 
 
